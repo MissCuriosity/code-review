@@ -1,0 +1,22 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MissCuriosity/code-review.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MissCuriosity/code-review/issues"
+  },
+  "homepage": "https://github.com/MissCuriosity/code-review#readme",
+  "devDependencies": {
+    "eslint": "^4.7.2"
+  }
+}
