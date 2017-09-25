@@ -1,3 +1,5 @@
+// http://eslint.cn/docs/rules/
+
 module.exports = {
   // extends: 'eslint:recommended',//如果有多个es版本，那么需要配对不同的eslintrc，放在extends中引入
   "env": {//定义了预定义的全局变量, 指定你想启用的环境
@@ -17,7 +19,11 @@ module.exports = {
   },
   "plugins": [],//第三封插件
   "rules": {
-    "indent": ["warning", "tab"],//缩进以tab格式
-    "linebreak-style": ["error", "unix"]//unix换行符
+    // "indent": ["warning", "tab"],//缩进以tab格式
+    "linebreak-style": ["error", "unix"],//unix换行符
+    "no-console": "off",
+    // "no-empty-function": ["error", { "allow": ["functions", "arrowFunctions"] }]
+    "no-empty-function": ["error", { "allow": ["functions"] }],
+    "no-dupe-args": ["error"]
   }
 }
