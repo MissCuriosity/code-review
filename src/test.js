@@ -24,7 +24,6 @@ var bar = function (a, b, c) {
     console.log("value of the second a:", a);
 };
 
-
 // console.log(foo(y));
 
 // ash bash zsh
