@@ -14,7 +14,7 @@
 
 // function foo1() {}
 
-// var foo = () => {};
+var foo = () => {};
 
 function foo(a, b, c) {
     console.log("value of the second a:", a);
