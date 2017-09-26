@@ -21,7 +21,6 @@ module.exports = {
   "rules": {
     // "indent": ["warning", "tab"],//缩进以tab格式
     "linebreak-style": ["error", "unix"],//unix换行符
-    "no-console": "off",
     // "no-empty-function": ["error", { "allow": ["functions", "arrowFunctions"] }]
     "no-empty-function": ["error", { "allow": ["functions"] }],
     "no-dupe-args": ["error"]
